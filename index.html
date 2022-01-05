@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>铠烁在线解析 - VIP视频在线解析</title>
+		<!-- 优先使用 IE 最新版本和 Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- 页面描述 -->
+		<meta name="description" content="铠烁解析VIP视频免费看，在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，芒果vip解析方便广大用户VIP视频服务，最新电影最新电视剧在线免费观看" />
+		<!-- 页面关键词 -->
+		<meta name="keywords" content="vip视频解析,vip视频在线解析,vip解析,万能vip视频解析,vip视频全能解析,vip视频,手机vip视频解析,手机在线解析vip视频,优酷vip解析,爱奇艺vip解析,腾讯vip解析,乐视vip解析,芒果vip解析,vip音乐解析" />
+		<!-- 网页作者 -->
+		<meta name="author" content="铠烁科技" />
+		<!-- 搜索引擎抓取 -->
+		<meta name="robots" content="index,follow" />
+		<!-- 为移动设备添加 viewport -->
+		<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 不让百度转码 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<link rel="shortcut icon" type="image/x-icon" href="https://s2.ax1x.com/2020/02/05/1rXNTK.png" media="screen" />
+		<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css" />
+		<style type="text/css">
+			.site-title {
+				margin: 30px 0 20px;
+			}
+
+			.site-title fieldset {
+				border: none;
+				padding: 0;
+				border-top: 1px solid #eee;
+				text-align: center;
+			}
+
+			.site-title fieldset legend {
+				margin-left: 20px;
+				padding: 0 10px;
+				font-size: 22px;
+				font-weight: 300;
+			}
+
+			.site-tips {
+				padding-left: 20px;
+				padding-right: 20px;
+				font-size: 0.4em;
+				color: rgb(51, 51, 51);
+				margin-top: 4px;
+				margin-bottom: 4px;
+			}
+
+			.video {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				background-color: rgb(66, 66, 66);
+				width: 100%;
+				height: 600px;
+			}
+
+			/* 移动设备适配 */
+			@media only screen and (max-width: 600px) {
+				.video {
+					height: 300px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="site-title">
+			<fieldset>
+				<legend><a name="title">铠烁在线解析<br />VIP视频在线解析</a></legend>
+			</fieldset>
+		</div>
+		<div class="layui-container">
+			<div id="button" align="center">
+				<a href="http://v.kaishuokj.com/" class="layui-btn">铠烁影视</a>
+				<a href="http://video.kaishuokj.com/" class="layui-btn">铠烁解析</a>
+				<a href="http://v.kaishuokj.com/app/download/" class="layui-btn">影视APP</a>
+			</div>
+			<div class="video" align="center">
+				<iframe src="" width="100%" height="100%" frameborder="0" scrolling="no" style="background: url('https://s2.ax1x.com/2020/02/05/1rXFzj.gif') no-repeat center;"
+				 id="vipvideo"></iframe>
+			</div>
+			<form class="layui-form">
+				<div class="layui-form-item">
+					<input id="url" type="text" name="url" required lay-verify="required" placeholder="请粘贴视频网址" autocomplete="off"
+					 class="layui-input" style="margin-bottom: 4px;" />
+					<select name="urltype" lay-verify="required" lay-filter="college">
+						<option value="">请选择解析线路接口</option>
+						<option value="http://video.kaishuokj.com/api.php?url=">铠烁通用接口-稳定线路</option>
+						<option value="http://v.kaishuokj.com/?url=">铠烁解析接口-高清线路</option>
+					</select>
+				</div>
+				<button type="button" class="layui-btn layui-btn-fluid" style="margin-bottom: 4px;" onclick="windows();">开始解析</button>
+				<button type="button" class="layui-btn layui-btn-fluid" style="margin-bottom: 4px;margin-left:0px" onclick="jump();">全屏解析</button>
+			</form>
+			<br /><br />
+			<div class="site-title site-tips" style="font-size: 0.1em;">
+				&nbsp;&nbsp;&nbsp;&nbsp;<b>vip视频解析是什么?</b><br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 现今许多视频网站都有vip会员服务,某些影片只有vip会员才能观看。还有些影片甚至连vip会员也要再花钱购买观影券。<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;* 对于想要免费观看影片的用户怎么办了？这时候就需要用到VIP视频解析工具了！<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;* 铠烁vip解析旨在为网友提供免费的vip视频在线解析服务，让大家不花钱就能观看各大视频网站的收费视频。目前支持腾讯视频,爱奇艺,芒果TV,搜狐视频,pptv等平台!
+			</div>
+			<br /><br />
+			<div class="site-title site-tips" style="font-size: 0.1em;">
+				&nbsp;&nbsp;&nbsp;&nbsp;<b>使用方法</b><br><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;* 复制影片的url地址粘贴到上方编辑框，点击解析即可免费观看！<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;* 播放过程中出现卡顿建议尝试切换线路或刷新页面！<br />
+			</div>
+		</div>
+		<br /><br />
+		<div class="layui-footer" align="center">
+			<div class="layui-text">
+				<span style="font-size: 0.01em;">
+					本站仅供学习交流使用，我们尊重任何视频版权,<br />如果无意侵犯了您的合法权益，请联系我们，我们将及时处理！<br />
+				</span>
+				<span style="font-size: 0.1em;">
+					© Copyright 2020 <a href="http://www.kaishuokj.com/">铠烁科技</a> All Rights Reserved</span>
+			</div>
+		</div>
+	</body>
+	<script src="https://www.layuicdn.com/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		var urltype = "";
+		var url = "";
+		layui.use(['form', 'jquery'], function() {
+			var form = layui.form,
+				$ = layui.$;
+			form.on('select', function(data) {
+				urltype = data.value;
+			});
+		});
+
+		function windows() {
+			url = document.getElementById("url").value;
+			if (url == "" || url == null) {
+				layer.open({
+					title: '温馨提醒',
+					content: '请粘贴视频地址！'
+				});
+				return;
+			}
+			if (urltype == "" || urltype == null) {
+				layer.open({
+					title: '温馨提醒',
+					content: '请选择解析线路！'
+				});
+				return;
+			}
+			document.getElementById("vipvideo").src = urltype + url;
+		}
+
+		function jump() {
+			url = document.getElementById("url").value;
+			if (url == "" || url == null) {
+				layer.open({
+					title: '温馨提醒',
+					content: '请粘贴视频地址！'
+				});
+				return;
+			}
+			if (urltype == "" || urltype == null) {
+				layer.open({
+					title: '温馨提醒',
+					content: '请选择解析线路！'
+				});
+				return;
+			}
+			window.location.href = urltype + url;
+		}
+	</script>
+</html>
